@@ -1,0 +1,63 @@
+{
+    "title": "Cka Handbook - Certified Kubernetes Administrator (CKA)中文指南",
+    "description": "开个新坑",
+    "language": "zh-hans",
+    "author": "jokimina(小东)",
+    "links": {
+        "sidebar": {
+            "jokimina": "https://jokimina.io"
+        }
+    },
+    "plugins": [
+        "github",
+        "splitter",
+        "page-toc-button",
+        "image-captions",
+        "editlink",
+        "back-to-top-button",
+        "-lunr", "-search", "search-pro",
+        "github-buttons@2.1.0",
+        "tbfed-pagefooter@^0.0.1",
+        "3-ba",
+        "theme-default",
+        "-highlight", "prism", "prism-themes",
+        "sitemap-general",
+        "lightbox"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
+        "github": {
+            "url": "https://github.com/jokimina/cka-handbook"
+        },
+        "editlink": {
+            "base": "https://github.com/jokimina/cka-handbook/blob/master/",
+            "label": "编辑本页"
+        },
+        "image-captions": {
+            "caption": "图片 - _CAPTION_"
+        },
+        "github-buttons": {
+            "repo": "jokimina/cka-handbook",
+            "types": ["star"],
+            "size": "small"
+        },
+        "tbfed-pagefooter": {
+            "copyright": "</p>Copyright © <a href=https://github.com/jokimina>jokimina</a> 2019-2020",
+            "modify_label": " Updated at ",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "3-ba": {
+            "token": "9e74730512ec9c942eda1a4e0cdec109"
+        },
+        "prism": {
+            "css": [
+            "prism-themes/themes/prism-ghcolors.css"
+            ]
+        },
+        "sitemap-general": {
+            "prefix": "https://jokimina.io/cka-handbook/"
+        }
+    }
+}
