@@ -5,7 +5,7 @@
 官方会不定期在 https://github.com/cncf/curriculum 进行更新
 
 * 19% - 核心概念
-  * `kubernetes api` 组件
+  * `kubernetes api` 基本体
   * `kubernetes` 集群架构
   * `Services` 和其他网络组件
 * 5% - 调度
