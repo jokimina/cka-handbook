@@ -6,7 +6,7 @@
 
 ## 什么是 CKA  
 
-全称是 `Certificated Kubernetes Administrator`, 也就是官方认证的 Kubernetes 管理员，由 Kubernetes 的管理机构 CNCF 授权.
+全称是 `Certificated Kubernetes Administrator`, 也就是官方认证的 Kubernetes 管理员,由 Kubernetes 的管理机构 CNCF 授权.
 
 官方主页: https://www.cncf.io/certification/CKA/
 
