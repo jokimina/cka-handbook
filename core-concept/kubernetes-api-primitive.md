@@ -76,5 +76,17 @@ Openapi (swagger 2.0):
 - CRD (CustomResourceDefinition): 自定义资源定义, 参考 https://kubernetes.io/docs/tasks/access-kubernetes-api/custom-resources/custom-resource-definitions/
 - API Aggregation: 允许在不修改Kubernetes核心代码的同时扩展Kubernetes API, 具体参考: https://kubernetes.io/docs/tasks/access-kubernetes-api/setup-extension-api-server/#setup-an-extension-api-server-to-work-with-the-aggregation-layer
 
+## 启用/禁用 api 组
+
+可以在 `apiserver` 上设置 `--runtime-config` 启用或禁用, 多个资源使用 `,` 分隔
+
+启用:
+- api 组: `--runtime-config=batch/v2alpha1`
+- api 组中资源: `--runtime-config=extensions/v1beta1/resource` 
+
+禁用:
+- api 组: `--runtime-config=batch/v2alpha1=false`
+- api 组中资源: `--runtime-config=extensions/v1beta1/resouce=false` 
+
 ## 官方相关页面
 - https://kubernetes.io/docs/concepts/overview/kubernetes-api/

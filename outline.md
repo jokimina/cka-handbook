@@ -5,11 +5,12 @@
 官方会不定期在 https://github.com/cncf/curriculum 进行更新
 
 * 19% - 核心概念
-  * `kubernetes api` 基本体
-  * `kubernetes` 集群架构
+  * [kubernetes api](core-concept/kubernetes-api-primitive.md)
+    * [kubernetes object](core-concept/kubernetes-object.md)
+  * [kubernetes 集群架构](core-concept/kubernetes-architecture.md)
   * `Services` 和其他网络组件
 * 5% - 调度
-  * 使用 `label selector` 调度pod
+  * 使用 `label selector` 调度poPd
   * `DeamonSets` 的角色
   * `resources limit` 如何影响pod调度
   * 如何运行多个调度器并且知道如何配置 `Pod` 使用他们
