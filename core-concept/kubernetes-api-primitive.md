@@ -61,7 +61,7 @@ Openapi (swagger 2.0):
 - 稳定版本：
   - 版本名称是 vX,其中 X 是整数.
 
-  - 功能的稳定版本将出现在许多后续版本的发行软件中.api-primitive.md
+  - 功能的稳定版本将出现在许多后续版本的发行软件中.
 
 ## api 组
 
@@ -82,11 +82,11 @@ Openapi (swagger 2.0):
 
 启用:
 - api 组: `--runtime-config=batch/v2alpha1`
-- api 组中资源: `--runtime-config=extensions/v1beta1/resource` 
+- api 组中资源: `--runtime-config=extensions/v1beta1/resource`
 
 禁用:
 - api 组: `--runtime-config=batch/v2alpha1=false`
-- api 组中资源: `--runtime-config=extensions/v1beta1/resouce=false` 
+- api 组中资源: `--runtime-config=extensions/v1beta1/resouce=false`
 
 ## 官方相关页面
 - https://kubernetes.io/docs/concepts/overview/kubernetes-api/

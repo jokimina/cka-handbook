@@ -7,7 +7,7 @@
 * 19% - 核心概念
   * [kubernetes api](core-concept/kubernetes-api-primitive.md)
     * [kubernetes object](core-concept/kubernetes-object.md)
-  * [kubernetes 集群架构](core-concept/kubernetes-architecture.md)
+  * [kubernetes 集群架构](core-concept/kubernetes-architecture/index.md)
   * `Services` 和其他网络组件
 * 5% - 调度
   * 使用 `label selector` 调度poPd

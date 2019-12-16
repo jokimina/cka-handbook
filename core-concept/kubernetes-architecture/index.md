@@ -6,6 +6,8 @@
 ![](/images/kubernetes-architecture.jpg)
 
 ## 调用过程
+
+大图访问: https://hugo-picture.oss-cn-beijing.aliyuncs.com/what-happens-when-k8s.svg
 ![](/images/what-happens-when-k8s.svg)
 
 ## 参考
